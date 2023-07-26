@@ -1154,7 +1154,7 @@ static int __init hci_uart_init(void)
 	hci_uart_ldisc.write_wakeup = hci_uart_tty_wakeup;
 	hci_uart_ldisc.owner = THIS_MODULE;
 
-	if ((err == tty_register_ldisc(N_HCI, &hci_uart_ldisc))) {
+	if ((err = tty_register_ldisc(N_HCI, &hci_uart_ldisc))) {
 		BT_ERR("HCI line discipline registration failed. (%d)", err);
 		return err;
 	}
@@ -1181,7 +1181,7 @@ static void __exit hci_uart_exit(void)
 	h5_deinit();
 
 	/* Release tty registration of line discipline */
-	if ((err == tty_unregister_ldisc(N_HCI)))
+	if ((err = tty_unregister_ldisc(N_HCI)))
 		BT_ERR("Can't unregister HCI line discipline (%d)", err);
 
 #ifdef BTCOEX

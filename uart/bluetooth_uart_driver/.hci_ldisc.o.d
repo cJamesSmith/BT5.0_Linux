@@ -1,5 +1,5 @@
 hci_ldisc.o: \
- /home/cxw/Documents/BT5.0_Linux/20201202_LINUX_BT_DRIVER/uart/bluetooth_uart_driver/hci_ldisc.c \
+ /home/xwc/Downloads/20201202_LINUX_BT_DRIVER/uart/bluetooth_uart_driver/hci_ldisc.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
@@ -375,5 +375,5 @@ hci_ldisc.o: \
  include/net/fib_notifier.h include/net/bluetooth/hci_core.h \
  include/linux/leds.h include/dt-bindings/leds/common.h \
  include/net/bluetooth/hci.h include/net/bluetooth/hci_sock.h \
- /home/cxw/Documents/BT5.0_Linux/20201202_LINUX_BT_DRIVER/uart/bluetooth_uart_driver/hci_uart.h \
- /home/cxw/Documents/BT5.0_Linux/20201202_LINUX_BT_DRIVER/uart/bluetooth_uart_driver/rtk_coex.h
+ /home/xwc/Downloads/20201202_LINUX_BT_DRIVER/uart/bluetooth_uart_driver/hci_uart.h \
+ /home/xwc/Downloads/20201202_LINUX_BT_DRIVER/uart/bluetooth_uart_driver/rtk_coex.h

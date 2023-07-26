@@ -75,8 +75,8 @@ should modify rtl8xxx_config file.
    $ sudo make install
 
   2. Copy the right FW file and config file to the correct path.
-   $ sudo cp rtkbt-firmware/lib/firmware/rtl8761bu_fw /lib/firmware/
-   $ sudo cp rtkbt-firmware/lib/firmware/rtl8761bu_config /lib/firmware/
+   $ sudo cp rtkbt-firmware/lib/firmware/rtl8xxxxx_fw /lib/firmware/
+   $ sudo cp rtkbt-firmware/lib/firmware/rtl8xxxxx_config /lib/firmware/
 
    NOTE: PLEASE REFER THE FORWARD SECTION OF FILENAME LIST TO CORRESPONDE THE FW FILENAME AND THE CONFIG FILENAME WITH THE CHIP.
 	   
